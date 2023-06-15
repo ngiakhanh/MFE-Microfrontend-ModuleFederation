@@ -1,4 +1,5 @@
 <div>SHELL</div>
+<mft-wc-wrapper [options]="item"></mft-wc-wrapper>
 <li *ngFor="let remote of remotes"><a [routerLink]="remote.routePath">{{remote.routePath}}</a></li>
 <div class="container">
   <router-outlet></router-outlet>
